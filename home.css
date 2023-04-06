@@ -1,0 +1,235 @@
+*{
+    font-family:'Mulish', sans-serif,'Nunito Sans', sans-serif;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family:'Mulish', sans-serif,'Nunito Sans', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.navbar{
+    background-color: #000;
+}
+.nav-link{
+    color: #fff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.navbar a{
+    font-weight: bold;
+}
+li:after {
+    content: '';
+    display: block;
+    height: 3px;
+    width: 0px;
+    background: transparent;
+    bottom: 0%;
+    left: 50%;
+    border-radius: 10px;
+    transition: all 500ms ease;
+}
+li:hover:after {
+    left: 0%;
+    width: 100%;
+    /* background: #fff; */
+    background: #0d6efd;
+}
+.bg-img-text{
+    background-image: url(../bg-b.jpeg);
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+.bg-text{
+    position: absolute;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.bg-text h1{
+    color: #fff !important;
+    font-weight: bold;
+}
+.bg-text p{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.about-text{
+    margin: 1rem 0;
+}
+.about-text-head{
+    color: #000;
+    font-size: 20px;
+    font-weight: 500;
+}
+.about-text p{
+    font-size: 16px;
+    color: #8c9398;
+    line-height: 28px !important;
+    word-spacing: 1px;
+    margin: 0.5rem 0;
+}
+.about-heading h2{
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.progress{
+    margin:0.5rem 0;
+}
+.about-section{
+    padding: 50px 0;
+}
+.about-skill span{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.services-section{
+    padding: 50px 0;
+}
+.services-section h2{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.card-body{
+    padding: 55px 0;
+}
+.card-body:hover{
+    color: #fff;
+    background-color: #0d6efd;
+    border-radius: 5px;
+}
+.card-body:hover .bi{
+    fill: #fff;
+}
+.portfollio-section{
+    padding: 50px 0;
+}
+.resume-item{
+    padding: 20px;
+}
+#btn{
+    /* display: block; */
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border:2px solid #000;
+    /* z-index: 999; */
+}
+.site-footer{
+    font: 16px;
+    color: #fff;
+    background-color: black;
+    padding: 3em 0;
+}
+.mb-5{
+    margin-bottom: 3rem !important;
+}
+.social-icon{
+    display: inline-block;
+    position: relative;
+    margin:5px 20px 5px 20px;
+    height: 60px;
+    width: 60px;
+}
+
+/* @media (min-width:200px) and (max-width:400px) {
+    .navbar a{
+        font-size: 13px;
+    }
+    .bg-img{
+        height: 50%;
+    }
+    .bg-text{
+        top: 17%;
+    }
+    .bg-text h1{
+        font-size: 18px;
+    }
+    .bg-text p{
+        font-size: 14px;
+    }
+}
+@media (min-width:401px) and (max-width:576px) {
+    .bg-img{
+        height: 40%;
+    }
+    .bg-text{
+        top: 28%;
+    }
+    .bg-text h1{
+        font-size: 28px;
+    }
+    .bg-text p{
+        font-size: 24px;
+    }
+}
+
+@media (min-width:577px) and (max-width:768px) {
+    .bg-img{
+        height: 50%;
+    }
+    .bg-text{
+        top: 30%;
+    }
+    .bg-text h1{
+        font-size: 30px;
+    }
+    .bg-text p{
+        font-size: 25px;
+    }
+}
+
+@media (min-width:769px) and (max-width:992px) {
+    .bg-img{
+        height: 40%;
+    }
+    .bg-text{
+        top: 25%;
+    }
+    .bg-text h1{
+        font-size: 43px;
+    }
+    .bg-text p{
+        font-size: 38px;
+    }
+}
+@media (min-width:993px) and (max-width:1200px) {
+    .bg-img{
+        height: 40%;
+    }
+    .bg-text{
+        top: 55%;
+    }
+    .bg-text h1{
+        font-size: 35px;
+    }
+    .bg-text p{
+        font-size: 30px;
+    }
+}
+
+@media (min-width:1201px) and (max-width:1400px) {
+    .bg-img{
+        height: 40%;
+    }
+    .bg-text{
+        top: 28%;
+    }
+    .bg-text h1{
+        font-size: 25px;
+    }
+    .bg-text p{
+        font-size: 20px;
+    }
+} */
