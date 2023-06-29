@@ -1,6 +1,6 @@
 import React from 'react'
 import Typist from "react-text-typist"
-import img from '../../src/bg-b.jpeg';
+import img from "../my-img.jpg"
 import Container from 'react-bootstrap/Container'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
@@ -44,9 +44,6 @@ const Home = () => {
                     <Row >
                         <Col style={{ padding: "0px" }}>
                             <div className="bg-img-text">
-                                {/* <img src={img} alt="bhavin" className='w-100 bg-img position-relative background-size-cover' /> */}
-                                {/* <img src='https://images.unsplash.com/photo-1536694174218-92a1d79a0ca5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8MTUlMjBpbmNoJTIwbGFwdG9wfGVufDB8fDB8fA%3D%3D&w=1000&q=80' alt="bhavin" className='w-100 bg-img position-relative background-size-cover' /> */}
-                                {/* <div className="container gx-4 gx-lg-5 text-center position-absolute top-50 start-50 translate-middle bg-text pr-lg-0 mb-lg-0"> */}
                                 <div className=" bg-text lg-12 sm-3 md-5 text-center">
                                     <h1>Welcome</h1>
                                     <h1 >I Am Bhavin Ghoghari</h1>
@@ -63,8 +60,7 @@ const Home = () => {
                     <div className="row mb-5 align-item-center d-flex justify-content-center">
                         <div className="col-lg-5 pr-lg-5 mb-5 mb-lg-0">
                             <div className="about-img">
-                                {/* <img src="https://preview.colorlib.com/theme/orbit/images/image_1_long.jpg.webp" alt="image place holder" className='img-fluid' /> */}
-                                <img src="https://i.pinimg.com/564x/61/32/18/61321875470966ea3a42e9a7c12f7c4e.jpg" alt="bhavin" className='img-fluid' height='600ch' width="90%" />
+                                <img src={img} alt="bhavin" className='img-fluid' height='600ch' width="90%" />
                             </div>
                             <div className="about-text">
                                 <p>
@@ -188,19 +184,6 @@ const Home = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="col-lg-4 col-md-6 text-center">
-                            <div className="mt-5"><svg xmlns="http://www.w3.org/2000/svg" width="90" height="90" fill="currentColor" class="bi bi-filetype-jsx text-primary" viewBox="0 0 16 16">
-                                <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM3.075 14.841a1.13 1.13 0 0 0 .401.823c.13.108.288.192.478.252.19.061.411.091.665.091.338 0 .624-.053.858-.158.237-.105.416-.252.54-.44a1.17 1.17 0 0 0 .187-.656c0-.224-.045-.41-.135-.56a1.001 1.001 0 0 0-.375-.357 2.027 2.027 0 0 0-.565-.21l-.621-.144a.97.97 0 0 1-.405-.176.37.37 0 0 1-.143-.299c0-.156.061-.284.184-.384.125-.101.296-.152.513-.152.143 0 .266.023.37.068a.624.624 0 0 1 .245.181.56.56 0 0 1 .12.258h.75a1.092 1.092 0 0 0-.199-.566 1.21 1.21 0 0 0-.5-.41 1.813 1.813 0 0 0-.78-.152c-.293 0-.552.05-.776.15-.225.099-.4.24-.528.421-.127.182-.19.395-.19.639 0 .201.04.376.123.524.082.149.199.27.351.367.153.095.332.167.54.213l.618.144c.207.049.36.113.462.193a.387.387 0 0 1 .153.326.512.512 0 0 1-.085.29.559.559 0 0 1-.255.193c-.111.047-.249.07-.413.07-.117 0-.224-.013-.32-.04a.837.837 0 0 1-.248-.115.578.578 0 0 1-.255-.384h-.765ZM0 14.791c0 .165.027.32.082.466.055.147.136.277.243.39.11.113.245.202.407.267.164.062.354.093.569.093.42 0 .748-.115.984-.346.238-.23.358-.565.358-1.004v-2.725h-.791v2.745c0 .201-.046.357-.138.466-.092.11-.233.164-.422.164a.499.499 0 0 1-.454-.246.576.576 0 0 1-.073-.27H0Zm8.907-2.859H9.8l-1.274 2.007L9.78 15.93h-.908l-.85-1.415h-.035l-.853 1.415h-.861l1.24-2.016-1.228-1.983h.931l.832 1.438h.036l.823-1.438Z" />
-                            </svg></div>
-                            <h3 className="h4 m-3">React Js</h3>
-                            <p className="text-muted m-2">React Js responsible for designing and developing websites and website applications. Using a variety of programming languages and web technologies, web developers manage site functionality, implement application features, and integrate security measures.</p>
-                        </div> */}
-                        {/* <div className="col-lg-4 col-md-6 text-center">
-                            <div className="mt-5"></div>
-                            <h3 className="h4 m-3">Bootstrap</h3>
-                            <p className="text-muted m-2">Bootstrap responsible for designing and developing websites and website applications. Using a variety of programming languages and web technologies, web developers manage site functionality, implement application features, and integrate security measures.</p>
-                        </div> */}
-                        {/* </div> */}
                     </div>
                 </div>
             </section >
@@ -306,12 +289,7 @@ const Home = () => {
                     </div>
                 </div>
             </footer >
-            {/* button */}
-            {/* < button id='btn' className='btn btn-primary' >
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"></path>
-                </svg>
-            </button > */}
+
         </>
     )
 }
